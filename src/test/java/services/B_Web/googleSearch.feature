@@ -23,4 +23,4 @@ Feature: browser automation 2
       }
       """
     And def searchResults = waitUntil(searchFunction)
-    Then match searchResults contains 'karate-core/src/main/resources/karate-logo.png'
+    Then match searchResults contains 'karate-core/src/main/resources/res/karate-logo.png'
