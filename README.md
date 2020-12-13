@@ -21,8 +21,8 @@ This is test suite that runs in multiple environment to quickly test individual 
 |---------------|-----------------------------------------------------------------------------------------------------------|
 | @00_Shakeout  | All the scenarios should have this                                                                        |
 | @01_Dev       | Along with @00_Shakeout, this will be added in all of the **dev** related scenarios.                      |
-| @01_ST        | Along with @00_Shakeout, this will be added in all of the **sytem test** related scenarios.               |
-| @01_SIT       | Along with @00_Shakeout, this will be added in all of the **system integration test** related scenarios.  |
+| @02_ST        | Along with @00_Shakeout, this will be added in all of the **sytem test** related scenarios.               |
+| @03_SIT       | Along with @00_Shakeout, this will be added in all of the **system integration test** related scenarios.  |
 
 ### **Progression and Regression Automation Test Suite**
 This is a test suite that can should be able to run in multiple environment to test all positive and negative scenarios.
