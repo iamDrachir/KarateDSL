@@ -19,7 +19,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <karate.version>0.9.6</karate.version>
-        <gatling.version>3.0.5</gatling.version>
+        <gatling.version>3.1.1</gatling.version>
         <pdfbox.version>2.0.17</pdfbox.version>
         <jwayJsonPath.version>2.0.0</jwayJsonPath.version>
     </properties>
@@ -33,6 +33,12 @@
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit5</artifactId>
+            <version>${karate.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-gatling</artifactId>
             <version>${karate.version}</version>
             <scope>test</scope>
         </dependency>
@@ -96,7 +102,7 @@
                 <configuration>
                     <simulationsFolder>src/test/java</simulationsFolder>
                     <includes>
-                        <include>services.A_API.facebook</include>
+                        <include>services.C_Performance.userSimulations</include>
                     </includes>
                 </configuration>
             </plugin>
