@@ -5,8 +5,8 @@ import io.gatling.core.Predef._
 import scala.concurrent.duration._
 
 class userSimulations extends Simulation {
-  val getSingleUser = scenario("This is to test search api for").during(120 seconds) {
-    exec(karateFeature("classpath:services/A_API/google/search.feature"))
+  val getSingleUser = scenario("google search, land on the karate github page, and search for a file").during(120 seconds) {
+    exec(karateFeature("classpath:services/B_Web/googleSearch.feature"))
   }
   setUp(
     getSingleUser.inject(
