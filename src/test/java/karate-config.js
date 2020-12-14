@@ -15,6 +15,10 @@ function fn() {
     config.someUrlBase = 'https://stage-host/v1/auth';
   } else if (env == 'e2e') {
     config.someUrlBase = 'https://e2e-host/v1/auth';
+    var result = karate.callSingle('classpath:services/authorization.feature', config);
+    config.authInfo = { authToken: result.response.access_token, authType: result.response.token_type };
+    karate.log('Access_token is : ', config.authInfo.authToken);
+    karate.log('Token_type is : ', config.authInfo.authType);
   }
   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
   karate.configure('connectTimeout', 5000);
