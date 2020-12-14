@@ -102,7 +102,7 @@
                 <configuration>
                     <simulationsFolder>src/test/java</simulationsFolder>
                     <includes>
-                        <include>services.C_Performance.userSimulations</include>
+                        <include>services.D_Performance.userSimulations</include>
                     </includes>
                 </configuration>
             </plugin>
