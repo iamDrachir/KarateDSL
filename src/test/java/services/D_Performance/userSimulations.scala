@@ -1,4 +1,4 @@
-package services.C_Performance
+package services.D_Performance
 
 import com.intuit.karate.gatling.PreDef._
 import io.gatling.core.Predef._
