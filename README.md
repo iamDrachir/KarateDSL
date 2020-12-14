@@ -29,8 +29,8 @@ This is a test suite that can should be able to run in multiple environment to t
 
 ### **The Progression and Regression Suite Explained**
 * It is extremely necessary to parameterise test data and configurations in multi environment automation.
-* All the pre-requisites are placed in background such as token generation, headers, common utilities, and configs. The [callonce](https://github.com/intuite/karate#callonce) will be adapted to cache test data for reusability purpose.
-* There's no strict guidelines in naming the scenario, but it is a must that they be clear and concise, and must be unique especially if using a test [data driven](https://github.com/karate#data-driven-tests) approach in writing scenario.
+* All the pre-requisites are placed in background such as token generation, headers, common utilities, and configs. The [callonce](https://github.com/intuit/karate#callonce) will be adapted to cache test data for reusability purpose.
+* There's no strict guidelines in naming the scenario, but it is a must that they be clear and concise, and must be unique especially if using a test [data driven](https://github.com/intuit/karate#data-driven-tests) approach in writing scenario.
 * Each scenario must be tagged with:
 
 | Tags            | Comment                                                               | 
