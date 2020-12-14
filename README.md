@@ -13,7 +13,7 @@ This is test suite that runs in multiple environment to quickly test individual 
 
 ### **The Shakeout Suite Explained**
 * All the scenarios are consolidated in single feature logically grouped by environment.
-* All the pre-requisites are placed in background such as token generation, headers, common utilities, and configs. The [callonce](https://github.com/intuite/karate#callonce) will be adapted to cache test data for reusability purpose.
+* All the pre-requisites are placed in background such as token generation, headers, common utilities, and configs. The [callonce](https://github.com/intuit/karate#callonce) will be adapted to cache test data for reusability purpose.
 * There's no strict guidelines in naming the scenario, but it is a must that they be clear and concise.
 * Each scenario must be tagged with:
 
