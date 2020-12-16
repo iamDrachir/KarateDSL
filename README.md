@@ -11,9 +11,9 @@
     - [Report is TBD](#)
     
 ### **Important Links**
-| Topic          | Links                                                                                                   | 
-|---------------|-----------------------------------------------------------------------------------------------------------|
-| **Karate Documentation** | [API](https://github.com/intuit/karate) • [UI/Mobile](https://github.com/intuit/karate/tree/master/karate-core) • [Performance](https://github.com/intuit/karate/tree/master/karate-gatling) • [Desktop](https://github.com/intuit/karate/tree/master/karate-robot) |
+| Topic          | Links                                                                                                   | Youtube |
+|---------------|-----------------------------------------------------------------------------------------------------------|--------|
+| **Karate Documentation** | [API](https://github.com/intuit/karate) • [UI/Mobile](https://github.com/intuit/karate/tree/master/karate-core) • [Performance](https://github.com/intuit/karate/tree/master/karate-gatling) • [Desktop](https://github.com/intuit/karate/tree/master/karate-robot) | [Video Summary](https://www.youtube.com/watch?v=yu3uupBZyxc) |
 
 ### **Shakeout Automation Test Suite**
 This is test suite that runs in multiple environment to quickly test individual APIs in processing a single happy path scenario. The test has to be triggered via jenkins, so an awesome email could be triggered each build in order to provide immediate feedback to whole development team.
