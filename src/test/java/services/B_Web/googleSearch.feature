@@ -3,6 +3,7 @@ Feature: browser automation 2
   Background:
     * configure driver = { type: 'chrome' }
 
+  @Google
   Scenario: google search, land on the karate github page, and search for a file
     Given driver 'https://google.com'
     And input('input[name=q]', 'karate dsl')
@@ -24,3 +25,17 @@ Feature: browser automation 2
       """
     And def searchResults = waitUntil(searchFunction)
     Then match searchResults contains 'karate-core/src/main/resources/res/karate-logo.png'
+
+  @Delta
+  Scenario: Login at Delta Airlines
+    * driver 'https://www.delta.com'
+    * screenshot()
+    * waitFor('{}Log in').click()
+    * screenshot()
+    * click('{}SkyMiles Number Or Username').input('9060651578')
+    * screenshot()
+    * click('{}Password').input('Charlotte123')
+    * screenshot()
+    * mouse('#loginButton').click()
+    * screenshot()
+    * delay(10000)
