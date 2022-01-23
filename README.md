@@ -47,3 +47,6 @@ This is a test suite that can should be able to run in multiple environment to t
 | @03_Positive    | Collection of automated test for **positive** scenarios               |
 | @04_Negative    | Collection of automated test for **negative** scenarios               |
 | @05_{API}       | Collection of automated test for specific **API**
+
+### **Continuous Testing**
+![alt text](https://github.com/iamDrachir/KarateDSL/blob/master/src/test/java/services/continuous_testing.jpg)
