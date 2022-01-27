@@ -52,5 +52,8 @@ This is a test suite that can should be able to run in multiple environment to t
 | @05_{API}       | Collection of automated test for specific **API**
 
 
-### **Test Data Driven Testing**
+### **Test Data Driven Testing (API Only)**
 ![alt text](https://github.com/iamDrachir/KarateDSL/blob/master/src/test/java/services/test_data_driven.jpeg)
+
+### **Test Data Driven Testing (API & PDF Document)**
+![alt text](https://github.com/iamDrachir/KarateDSL/blob/master/src/test/java/services/test_data_driven_api_and_pdf.jpg)
