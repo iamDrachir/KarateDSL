@@ -57,3 +57,7 @@ This is a test suite that can should be able to run in multiple environment to t
 
 ### **Test Data Driven Testing (API & PDF Document)**
 ![alt text](https://github.com/iamDrachir/KarateDSL/blob/master/src/test/java/services/test_data_driven_api_and_pdf.jpg)
+
+### **Run Commands**
+* API or UI: mvn test "-Dkarate.env = dev" -Dkarate.options="--tags @00_Shakeout classpath:A_API.google.search.feature" -Dtest=TestRunner
+* NFT: mvn clean test-compile galing:test -Dgatling.simulationClass=D_Performance.userSimulations.scala
